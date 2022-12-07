@@ -72,3 +72,22 @@ function possibleBonus(a, b) {
 - [source link](https://edabit.com/challenge/NHfYRHg2tDtcZyykB)
 
 
+**7.Find Number of Digits in Number**
+
+**javob**
+
+```js
+function num_of_digits(...num){
+  var n = Math.floor(Math.log10(Math.abs(num))) + 1;
+ 
+  if(n === -Infinity){
+    return 1
+  }else{
+    return n
+  }
+}
+```
+ **exersize link**
+- [source link](https://edabit.com/challenge/yFJzLfYghz7ZtsyAN)
+
+--------------------------
