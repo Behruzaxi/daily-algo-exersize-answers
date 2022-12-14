@@ -71,8 +71,8 @@ function possibleBonus(a, b) {
  **exersize link**
 - [source link](https://edabit.com/challenge/NHfYRHg2tDtcZyykB)
 
-
-**7.Find Number of Digits in Number**
+-------------
+**5.Find Number of Digits in Number**
 
 **javob**
 
@@ -91,3 +91,162 @@ function num_of_digits(...num){
 - [source link](https://edabit.com/challenge/yFJzLfYghz7ZtsyAN)
 
 --------------------------
+**6. Return the Sum of Two Numbers**
+
+**javob**
+
+```js
+function addition(a, b) {
+	return (a + b);
+}
+```
+ **exersize link**
+- [source link](https://edabit.com/challenge/3LpBLgNRyaHMvNb4j)
+
+---------
+**7.Convert Minutes into Seconds**
+
+**javob**
+
+```js
+function convert(minutes) {
+	return (minutes * 60);
+}
+```
+ **exersize link**
+- [source link](https://edabit.com/challenge/8q54MKnRrm89pSLmW)
+
+-----
+**8.Return the Next Number from the Integer Passed**
+
+**javob**
+
+```js
+function addition(num) {
+	return (num + 1);
+}
+```
+ **exersize link**
+- [source link](https://edabit.com/challenge/NAQhEoxbofPidLxm9)
+
+------
+**9.Convert Age to Days**
+
+**javob**
+
+```js
+function calcAge(age) {
+	return age * 365;
+}
+```
+
+ **exersize link**
+- [source link](https://edabit.com/challenge/bL7hSc6Zh4zZJzGmw)
+
+--------
+**10.Power Calculator**
+
+**javob**
+
+```js
+function circuitPower(voltage, current) {
+	return (voltage * current);
+}
+```
+ **exersize link**
+- [source link](https://edabit.com/challenge/wAdE9te55cowBLcPs)
+
+-----
+
+**11.Maximum Edge of a Triangle**
+
+**javob**
+
+```js
+function nextEdge(side1, side2) {
+	return (side1 + side2) -1;
+}
+```
+ **exersize link**
+- [source link](https://edabit.com/challenge/nhXofMMyrowMyr9Nv)
+
+-----
+
+**12.Find the Perimeter of a Rectangle**
+
+**javob**
+
+```js
+function findPerimeter(length, width) {
+	return (length + width) * 2;
+}
+```
+ **exersize link**
+- [source link](https://edabit.com/challenge/XnJ24rWW7iJkNrtsh)
+
+-----
+**13.Area of a Triangle**
+
+**javob**
+
+```js
+function triArea(base, height) {
+	return (base * height) /2;
+}
+```
+ **exersize link**
+- [source link](https://edabit.com/challenge/3CaszbdZYGN4otQD8)
+
+---------
+**14.Return the First Element in an Array**
+
+**javob**
+
+```js
+function getFirstValue(arr) {
+	return (arr[0]);
+}
+```
+ **exersize link**
+- [source link](https://edabit.com/challenge/QaApgtePE6QrCZ64o)
+
+------
+
+**15.Convert Hours into Seconds**
+
+**javob**
+
+```js
+function howManySeconds(hours) {
+	return hours * 3600;
+}
+```
+ **exersize link**
+-[source link](https://edabit.com/challenge/6AnQqiEjkJdZrWhPS)
+
+------
+
+**16.Return the Remainder from Two Numbers**
+
+**javob**
+
+```js
+function remainder(x, y) {
+	return x % y;
+}
+```
+ **exersize link**
+- [source link](https://edabit.com/challenge/Q2j5FTFtsk7PdzrQk)
+-------
+
+**17.Return Something to Me! // Edabit**
+
+**javob**
+
+```js
+function giveMeSomething(a) {
+return "something " + a;
+}
+```
+ **exersize link**
+- [source link](https://edabit.com/challenge/MvZK536X7fyrWH8Qc)
