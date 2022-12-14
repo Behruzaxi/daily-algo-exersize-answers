@@ -250,3 +250,71 @@ return "something " + a;
 ```
  **exersize link**
 - [source link](https://edabit.com/challenge/MvZK536X7fyrWH8Qc)
+
+----------
+**18.Is the Number Less than or Equal to Zero?**
+
+**javob**
+
+```js
+function lessThanOrEqualToZero(num) {
+//	if(num <= 0){
+	//	return true;
+//	}
+//	else false;
+	return num <= 0;
+}
+```
+**exersize link**
+- [source link](https://edabit.com/challenge/PTiLYyb4A69KZtBCg)
+--------
+**19.Basketball Points**
+
+**javob**
+
+```js
+function points(twoPointers, threePointers) {
+	return twoPointers*2 + threePointers*3
+}
+```
+**exersize link**
+- [source link](https://edabit.com/challenge/Y46Xp2pcvTB77bmdD)
+
+----------
+**20.Less Than 100?**
+
+**javob**
+
+```js
+function lessThan100(a, b) {
+	return (a + b) <= 100;
+}
+```
+**exersize link**
+- [source link](https://edabit.com/challenge/9MjEpkL7yAjAqiH58)
+---------
+**21.Sum of Polygon Angles**
+
+**javob**
+
+```js
+function sumPolygon(n) {
+	return (n - 2) * 180;
+}
+```
+**exersize link**
+- [source link](https://edabit.com/challenge/fBJyQSe5Jmbm9hPAG)
+-----------
+**22.Basic Variable Assignment**
+
+**javob**
+
+```js
+function nameString(name){
+	var b = "Edabit"
+	var result = name + b
+  	return result;
+}
+```
+**exersize link**
+- [source link](https://edabit.com/challenge/ZNwHGgHvsdnYwJ5WK)
