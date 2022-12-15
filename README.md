@@ -258,10 +258,10 @@ return "something " + a;
 
 ```js
 function lessThanOrEqualToZero(num) {
-//	if(num <= 0){
-	//	return true;
-//	}
-//	else false;
+	if(num <= 0){
+		return true;
+	}
+	else false;
 	return num <= 0;
 }
 ```
@@ -318,3 +318,102 @@ function nameString(name){
 ```
 **exersize link**
 - [source link](https://edabit.com/challenge/ZNwHGgHvsdnYwJ5WK)
+
+----------
+**23.The Farm Problem**
+
+**javob**
+
+```js
+function animals(chickens, cows, pigs) {
+	return (chickens*2 + cows*4 + pigs*4);
+}
+```
+**exersize link**
+- [source link](https://edabit.com/challenge/8Qg78sf5SNDEANKti)
+
+-------
+**24.Using the "&&" Operator**
+
+**javob**
+
+```js
+function and(a, b) {
+if (b && a)
+  return true
+  if (b && b)
+  return false
+  if (a && b)
+    return false
+  else return false
+}
+```
+**exersize link**
+- [source link](https://edabit.com/challenge/vJCZmgvvDjehyDcDK)
+- ------------
+**25.Football Points**
+
+**javob**
+
+```js
+function footballPoints(wins, draws, losses) {
+	return (wins*3 + draws*1 + losses*0);
+}
+```
+**exersize link**
+- [source link](https://edabit.com/challenge/GwvwXHWCThHZrR7xu)
+---------
+**26.Fix the Expression**
+
+**javob**
+
+```js
+function isSeven(x) {
+	return x === 7;
+}
+```
+**exersize link**
+- [source link](https://edabit.com/challenge/FipbQSYquQLPZ8QXG)
+-------
+**27.Are the Numbers Equal?**
+
+**jAVOB**
+
+```js
+function isSameNum(num1, num2) {
+	return (num2 === num1);
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/QSnaSH5S3oxZkwcNc)
+- --------------
+**28.Convert Hours and Minutes into Seconds**
+
+**javob**
+
+```js
+function convert(hours, minutes) {
+	return (hours*3600 + minutes*60);
+}
+```
+**exersize link**
+- [source link](https://edabit.com/challenge/JesaFi5ntBEbGT8bu)
+
+-----------
+**29.Equality Check**
+
+**javob**
+
+```js
+function checkEquality(a, b) {
+  if (a === b){
+    return true;
+  }else{
+    return false;
+  }
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/BGvTMfwxYDRbtaTJ3)
