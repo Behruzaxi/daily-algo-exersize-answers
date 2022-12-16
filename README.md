@@ -417,3 +417,76 @@ function checkEquality(a, b) {
 
 **exersize link**
 - [source link](https://edabit.com/challenge/BGvTMfwxYDRbtaTJ3)
+- ---------
+**30.Profitable Gamble**
+
+**javob**
+
+```js
+function profitableGamble(prob, prize, pay) {
+return (prob*prize > pay ? true:false);
+}
+```
+**exersize link**
+- [source link](https://edabit.com/challenge/ghbHrRnRiDz9fvQNF)
+- ---
+**31.Using Arrow Functions**
+
+**javob**
+
+```js
+// create your arrow function below
+arrowFunc = (behruz) => {
+	return behruz
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/QkvDge63crdGnMfvM)
+
+--------------
+**32.Miserable Parody of a Calculator**
+
+**javob**
+
+```js
+function calculator(str) {
+return eval(str);
+}
+```
+**exersize link**
+- [source link](https://edabit.com/challenge/fh9i7k936rvfjnCYR)
+
+-----
+**33.Let's Fuel Up!**
+
+**javob**
+
+```js
+function calculateFuel(n) {
+	if (n <= 10) 
+		return 100;
+	else 
+		return n * 10;
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/YMWDcSuYwYvve3HZj)
+
+----
+**34.Pair Management**
+
+**javob**
+
+```js
+function makePair(num1, num2) {
+		let arr = [num1, num2]
+	return arr
+}
+```
+**exersize link**
+- [source link](https://edabit.com/challenge/BFnsRqe8PFvEwcRNt)
+
+---
+**35.x**
