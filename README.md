@@ -489,4 +489,124 @@ function makePair(num1, num2) {
 - [source link](https://edabit.com/challenge/BFnsRqe8PFvEwcRNt)
 
 ---
-**35.x**
+**35.Is the String Empty?**
+
+**javob**
+
+```js
+function isEmpty(s) {
+  if (s === ""){
+    return true;
+  }else{
+    return false;
+  }
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/EzbfiquDoAc2Zc9FL)
+
+----
+**36.Boolean to String Conversion**
+
+**javob**
+
+```js
+function boolToString(flag) {
+	return flag.toString();
+}
+```
+**exersize link**
+-[source link](https://edabit.com/challenge/KSTkFSnaYBJdo6PHx)
+
+----
+**37.Frames Per Second**
+
+**javob**
+
+```js
+function frames(minutes, fps) {
+	return(minutes * 60 * fps);
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/d9suvbchE2bnHNQuK0)
+
+--------
+
+**38.Two Makes Ten**
+
+**javob**
+
+```js
+function makesTen(a, b) {
+	return a==10||b==10 || a+b==10;
+}
+```
+**exersize link**
+- [source link](https://edabit.com/challenge/5erCDJ8eJDrXkmwTK)
+
+----------
+**39.Buggy Code (Part 2)**
+
+**javob**
+
+```js
+function maxNum(n1, n2) {
+	if (n1 < n2) {
+	  return n2
+	}
+  else {
+	return n1
+  }
+}
+```
+**exersize link**
+- [source link](https://edabit.com/challenge/uE9AJ4sSrrpSASMpu)
+- ------------
+
+**40.Compare Strings by Count of Characters**
+
+**javob**
+
+```js
+function comp(str1, str2) {
+	if (str1 === str2) {
+	  return true;
+	}
+  else {
+	return false;
+  }
+}
+
+//50%50 javob
+
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/yHGowWucg3k2kJdZ4)
+--------
+
+**41.Check if an Integer is Divisible By Five**
+
+**javob**
+
+```js
+function divisibleByFive(n) {
+if (n % 5 === 0) {
+  return true
+  } else {
+  return false
+}
+}
+
+// yoki
+
+function divisibleByFive(n) {
+	return n === 5 ? true: false;
+}
+```
+
+**exersize link**
+- [source link]()
