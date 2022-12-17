@@ -609,4 +609,120 @@ function divisibleByFive(n) {
 ```
 
 **exersize link**
-- [source link]()
+- [source link](https://edabit.com/challenge/iBQYbSHZGhpktLRdn)
+
+----
+**42.Multiple of 100**
+
+**javob**
+
+```js
+function divisible(num) {
+	return ( num % 100 === 0);
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/qMr6wYGr6NaXAPQGF)
+
+---
+**43.Divides Evenly**
+
+**javob**
+
+```js
+function dividesEvenly(a, b) {
+	return a % b == 0;
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/JfB9mWmbwYHbupxCB)
+
+----
+**44.Area of a Rectangle**
+
+**javob**
+
+```js
+function area(h, w) {
+	if(h <=0 || w <= 0) {
+		return -1;
+	}
+	return h * w;
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/g6b9HqkXqWu6GpfTo)
+-------------
+
+**45.Evaluate an Equation**
+
+**javob**
+
+```js
+function eq(evaluate) {
+ eq = eval
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/n2bFd2enCnHJkTwsK)
+- -------------
+
+**46.Learn Lodash: _.drop, Drop the First Elements of an Array**
+
+**javob**
+
+```js
+function drop(arr, val = 1) {
+		for(var i = 0; i < val; i++)
+		arr.shift();
+	return arr;
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/NMdKxEradTmpNnomZ)
+
+-------
+**47.Return Negative**
+
+**javob**
+
+```js
+function returnNegative(n) {
+	  return -Math.abs(n) 
+}
+```
+**exersize link**
+- [source link]( https://edabit.com/challenge/iDxwkarcJcmkDA8tq)
+
+---------
+**48.Recursion: Length of a String**
+
+**javob**
+
+```js
+function length(str) {
+	return str.length;
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/4MSbtYFBiRtxHEkY8)
+
+------
+**49.Return a String as an Integer**
+
+**javob**
+
+```js
+function stringInt(str) {
+	return parseInt(str);
+}
+```
+**exersize link**
+-[source link](https://edabit.com/challenge/rGsgEswWuW339yNxY)
+------
