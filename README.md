@@ -724,5 +724,58 @@ function stringInt(str) {
 }
 ```
 **exersize link**
--[source link](https://edabit.com/challenge/rGsgEswWuW339yNxY)
+-
+[source link](https://edabit.com/challenge/rGsgEswWuW339yNxY)
 ------
+**50.Concatenate First and Last Name into One String**
+
+**javob**
+
+```js
+function concatName(firstName, lastName) {
+return lastName + ', ' + firstName;
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/RQwdZmtrW8mCnuCMN)
+
+-------
+**51.Solve the Equation**
+
+**javob**
+
+```js
+function equation(s) {
+	return eval(s);
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/X6PDfNfJwcB4TkQuQ)
+
+---
+**52.Upvotes vs Downvotes**
+
+**javob**
+
+```js
+function getVoteCount(votes) {
+	return votes.upvotes - votes.downvotes;
+}
+```
+**exersize link**
+- [source link](https://edabit.com/challenge/654ABGmNS5GqscE8C)
+- -------
+**53.Reverse an Array**
+
+**javob**
+
+```js
+function reverse(arr) {
+		return arr.reverse();
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/kJQYTCCWSnzhXG9dn)
