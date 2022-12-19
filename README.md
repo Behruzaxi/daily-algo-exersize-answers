@@ -779,3 +779,94 @@ function reverse(arr) {
 
 **exersize link**
 - [source link](https://edabit.com/challenge/kJQYTCCWSnzhXG9dn)
+  
+  -------------------
+
+  **54.Fix the Bug: Simple Array Manipulation**
+
+  **javob**
+
+  ```js
+  function incrementItems(arr) {
+	for (let i = 0; i < array.length; i++)
+		arr[i] = arr[i] + 1
+	return arr
+	}
+	```
+
+
+**exersize link**
+- [source link](https://edabit.com/challenge/jipHTDkabftop5irE)
+
+-------------
+
+**55.Century Crisis**
+
+**javob**
+
+```js
+function futurePeople(population, n) {
+	return population+360*n;
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/DcmB9Ycm58FdkPe7k)
+
+---
+
+**56.Using Ternary Operators**
+
+**javob**
+
+```js
+function yeah_nope(bool) {
+		return bool ? "yeah" : "nope";
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/32rk4qSmtrB6oJGyn)
+
+-------
+
+**58.ES6: Destructuring Arrays I**
+
+**javob**
+
+```js
+const arr = [1, 2, 3, 4, 5, 6]
+const [a, b] = arr
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/sWAEoTbXA4bexBPb6)
+
+---
+**59.Radians to Degrees**
+
+**javob**
+
+```js
+function radiansToDegrees(rad){
+  return rad * 180 / Math.PI;
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/8rhnqxJFiJm5tS4G7)
+
+------
+
+**60.**
+
+**javob**
+
+```js
+function calculateExponent(num, exp) {
+	return num ** exp
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/H25aG5aAdmFcMpBsg)
