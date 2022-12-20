@@ -870,3 +870,98 @@ function calculateExponent(num, exp) {
 
 **exersize link**
 - [source link](https://edabit.com/challenge/H25aG5aAdmFcMpBsg)
+
+---------
+**61.Drinks Allowed?**
+
+**javob**
+
+```js
+function shouldServeDrinks(age, onBreak) {
+  return age >= 18 &&  !onBreak
+}
+```
+
+**exersiz link**
+- [source link](https://edabit.com/challenge/PwpJNJiysvq3AuYJ8)
+- ------------
+
+**62.Format I: Template String**
+
+**javob**
+
+```js
+// modify the template variable to be a template string 
+function format(a, b, c) {
+// the result string must give: "Their names were: a, b and c."
+	const template = `Their names were: ${a}, ${b} and ${c}.`
+	return template
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/DCmM4Eo6GQfrJoKXc)
+
+-----------
+**63.Is the String Odd or Even?**
+
+**javob**
+
+```js
+function oddOrEven(s) {
+		if(s.length % 2 === 0){
+		return true;
+	}else{
+	return false;
+	}
+}
+```
+**exersize link**
+- [source link](https://edabit.com/challenge/2tcuBxn37oouMeErN)
+
+------
+**65.I'd Like a New Shade of Blue, Please**
+
+**JAVOB**
+
+```js
+function howManyWalls(n, w, h) {
+	return Math.floor(n/(w*h))
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/2rjHtbg32PrtZdF66)
+
+----------
+**66.Return the Last Element in an Array**
+
+**javob**
+
+```js
+function getLastItem(arr) {
+	return (arr.pop())
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/7JBTN4TbaxJQMdX9W)
+- ----------
+
+**67.String and Number Conversions**
+
+**javob**
+
+```js
+function intToString(num) {
+	return String(num);
+}
+
+
+function stringToInt(num) {
+	return Number(num);
+}
+```
+
+**exersize link**
+- [source link](https://edabit.com/challenge/svGRKq2Z7SnZiqYwy)
